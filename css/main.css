@@ -1,8 +1,36 @@
 html {
-	box-sizing: border-box;
-  
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #572203;
+  background-color: #efeee9;
+  padding: 15px 20px;
+  margin: auto;
+}
+
+ul li {
+  color: white;
+}
+
+nav a {
+  color: white;
+  background-color: #9a816d;
+  text-decoration: none;
+  border: 1px solid #795638;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
 }
